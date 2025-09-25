@@ -1,0 +1,33 @@
+body{
+    background-color: #E6CFA9;
+    color: #F75270;
+    
+}
+
+.wrapper{
+    top: 25%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: #C1856D;
+    width: 500px;
+    margin: 0 auto;
+    height: 50vh;
+    font-family: "Bitcount Prop Single", system-ui;
+    margin-top: 25vh;
+}
+
+
+
+#display{
+    font-size: 100px;
+}
+.button{
+    gap: 50px;
+    height: 30;
+}
