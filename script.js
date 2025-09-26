@@ -1,20 +1,30 @@
+let click = document.getElementById("click")
+
+function clickSound(){
+click.play();
+}
+
+
 let x = 0;
 
 
-function updateDisplay(){
+function stayconsistent(){
     document.getElementById("display").innerText = x;
 }
 
 function increase(){
     document.getElementById("display").innerText = x++;
-    updateDisplay();
+    stayconsistent();
+    clickSound();
 }
 function decrease(){
     document.getElementById("display").innerText = x--;
-    updateDisplay();
+    stayconsistent();
+    clickSound();
 }
 function reset(){
     x = 0
-    updateDisplay();
+    stayconsistent();
+    clickSound();
 }
 
